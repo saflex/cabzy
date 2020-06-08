@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+	<link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet" />
+	<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+	<link rel="stylesheet" href="plugins/Swiper/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/media.css" rel="stylesheet" media="screen">
+
+	<!-- js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+		<script src="plugins/JQui/jquery-ui.min.js"></script>
+
+	<script src="plugins/Bootstrap/bootstrap.js"></script>
+	<script src="plugins/BootstrapSelect/bootstrap-select.js"></script>
+	<script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+	<script src="plugins/Swiper/dist/js/swiper.min.js"></script>
+</head>
+<body>
+
+	<section class="main-block pages">
+		
+		
+		
+		
+<div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Cabzy</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+        <span class="sr-only">Открыть</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="responsive-menu">
+      <ul class="nav navbar-nav">
+       <li>
+						<a href="#">Как это работает</a>
+					</li>
+					<li>
+						<a href="#">Автопарк</a>
+					</li>
+					<li>
+						<a href="#">Кредиты</a>
+					</li>
+					<li>
+						<a href="#">Команда</a>
+					</li>
+					<li>
+						<a href="#">Вакансии</a>
+					</li>
+					<li>
+						<a href="#">Бизнес</a>
+					</li>
+      </ul>
+    </div>
+  </div>
+</div>
+		
+		
+		
+		<div class="w60 fll">
+			<div class="top-menu">
+				<div class="logo"></div>
+				<ul>
+					<li>
+						<a href="#">Как это работает</a>
+					</li>
+					<li>
+						<a href="#">Автопарк</a>
+					</li>
+					<li>
+						<a href="#">Кредиты</a>
+					</li>
+					<li>
+						<a href="#">Команда</a>
+					</li>
+					<li>
+						<a href="#">Вакансии</a>
+					</li>
+					<li>
+						<a href="#">Бизнес</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="w40 flr reg-panel">
+			<div class="in-w40">
+			<div class="phone-sticker"></div>
+			<div class="buttons-area">
+				<button class="button full-color fll">Вход</button>
+				<button class="button border-color fll">Стать водителем</button>
+
+				<div class="btn-group">
+					<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						ru
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li>en</li>
+						<li>ar</li>
+					</ul>
+				</div>
+
+
+
+
+				<div class="avatar flr">
+				
+					
+					
+								
+	<div class="btn-group">
+		
+			<img class="dropdown-toggle" src="img/logo.png" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					
+					<ul class="dropdown-menu">
+						<li><a href="#">Ваш профиль</a></li>
+						<li><a href="#">Ваши поездки</a></li>
+						<li><a href="#">Ваши баллы</a></li>
+						<li class="exit-area"><a href="#">Выход</a></li>
+					</ul>
+				</div>
+					
+					</div>
+
+			</div>
+
+			</div>
+
+		</div>
+		
+		<div class="clearfix"></div>
+		<div class="map-ws w60 fll">
+			
+	  <div id="map-canvas-left"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+		
+			
+		</div>
+		<div class="map-ws w40 fll">
+			<div class="mx-vts">
+				<div class="location"><span>UAE</span><strong></strong><span>Dubai</span></div>
+				
+				<form>
+					<div class="select-area">
+						<label>passenger</label>
+						<input type="text" class="form-control" placeholder="Имя Фамилия"> 
+					</div>
+					
+					<div class="select-area">
+						<label>pickup</label>
+						
+							<select name="" class="selectpicker line-sel" id="">
+					<option value="">search for location</option>
+					<option value="">Название</option>
+						<option value="">Название</option>
+						<option value="">Название</option>
+<option value="">Название</option>
+
+				</select>
+				  
+					</div>
+					
+					
+					<div class="select-area">
+						<label>drop off</label>
+						
+							<select name="" class="selectpicker line-sel" id="">
+					<option value="">search for location</option>
+					<option value="">Название</option>
+						<option value="">Название</option>
+						<option value="">Название</option>
+<option value="">Название</option>
+<option value="">Название</option>
+
+				</select>
+				  
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="select-area">
+						<label>car type</label>
+						
+							<select name="" class="selectpicker line-sel" id="">
+					<option value="">economy 4 people</option>
+					<option value="">Название</option>
+						<option value="">Название</option>
+						<option value="">Название</option>
+<option value="">Название</option>
+<option value="">Название</option>
+
+				</select>
+				  
+					</div>
+					
+				
+					
+					
+						</div>
+						
+						
+							
+					<div class="col-sm-6">
+							<div class="select-area">
+						<label>pickup type</label>
+						
+							<select name="" class="selectpicker line-sel" id="">
+					<option value="">now</option>
+						<option value="">later</option>
+						<option value="">repeat</option>
+
+
+				</select>
+				  
+					</div>
+					
+						
+					</div>
+				
+				
+				<div class="col-sm-12">
+							<div class="select-area">
+						<label>payment</label>
+						
+							<select name="" class="selectpicker line-sel" id="">
+					<option value="">select payment option</option>
+					<option value="">Название</option>
+						<option value="">Название</option>
+						<option value="">Название</option>
+<option value="">Название</option>
+
+				</select>
+				  
+					</div>
+				</div>	
+				
+				
+					<div class="col-sm-12">
+					
+					<div class="tttl-inf">Have a promo code?<a href="#">Write a note to captain</a></div>
+					
+					</div>
+					
+					<div class="col-sm-12">
+						<button class="button">Search</button>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</section>
+
+<div class="clearfix"></div>
+
+
+	
+
+<footer style="padding-top: 50px;">
+		<div class="container">
+		<div class="cab-foot fll hidden-xs hidden-sm">
+			<div class="logo"></div>
+		</div>
+		<div class="nav-foot fll">
+			<div class="nl1 fll">
+				<ul>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Как это работает</a></li>
+					<li><a href="#">Автопарк</a></li>
+					<li><a href="#">Команда</a></li>
+				</ul>
+			</div>
+			<div class="nl1 fll">
+				<ul>
+					<li><a href="#">Earns credits</a></li>
+					<li><a href="#">Buy credits</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Бизнес</a></li>
+				</ul>
+			</div>
+			<div class="nl1 fll">
+				<ul>
+					<li><a href="#">Блог</a></li>
+					<li><a href="#">Связаться с нами</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="download-foot fll hidden-sm hidden-md">
+			<div class="zgr">Загрузить</div>
+			<a href="#"><div class="soc-1 fll"></div></a>
+			<a href="#"><div class="soc-2 fll"></div></a>
+			<div class="clearfix"></div>
+			<p>Мы в соцсетях</p>
+			<div class="soc-area-foot">
+				<a href="#"><div class="soc-f-1 fll"></div></a>
+				<a href="#"><div class="soc-f-2 fll"></div></a>
+				<a href="#"><div class="soc-f-3 fll"></div></a>
+				<a href="#"><div class="soc-f-4 fll"></div></a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="pod-footer">© <b>2017</b> / All right reserved <span class="hlps-areas"><a href="#">Help</a><a href="#">FAQ</a><a href="#">Tearms of Use</a><a href="#">Private Policy</a><a href="#">Contact us</a></span></div>
+		</div>
+	</footer>
+	
+	<!-- scripts -->
+
+	<script src="js/scripts.js"></script>
+
+<script>
+	
+// *
+// * Two maps on the same page
+// * 2015 - en.marnoto.com
+// *
+
+// necessary variables
+var mapLeft, mapRight;
+var infoWindowLeft, infoWindowRight;
+
+// markersData variable stores the information necessary to each marker
+var markersDataLeft = [
+   {
+      lat: 40.6486333,
+      lng: -8.745,
+      name: "Camping Praia do Farol",
+      address1:"Rua Diogo Cão, 125",
+      address2: "Praia da Barra",
+      postalCode: "3830-772 Gafanha da Nazaré" // don't insert comma in the last item of each marker
+   },
+   {
+      lat: 40.54955,
+      lng: -8.7498167,
+      name: "Camping Costa Velha",
+      address1:"Quinta dos Patos, n.º 2",
+      address2: "Praia da Costa Nova",
+      postalCode: "3830-453 Gafanha da Encarnação" // don't insert comma in the last item of each marker
+   },
+   {
+      lat: 40.6447167,
+      lng: -8.7129167,
+      name: "Camping Gafanha da Boavista",
+      address1:"Rua dos Balneários do Complexo Desportivo",
+      address2: "Gafanha da Nazaré",
+      postalCode: "3830-225 Gafanha da Nazaré" // don't insert comma in the last item of each marker
+   } // don't insert comma in the last item
+];
+
+var markersDataRight = [
+   {
+      lat: 40.6386333,
+      lng: -8.745,
+      name: "Camping Praia da Barra",
+      address1:"Rua Diogo Cão, 125",
+      address2: "Praia da Barra",
+      postalCode: "3830-772 Gafanha da Nazaré" // don't insert comma in the last item of each marker
+   },
+   {
+      lat: 40.59955,
+      lng: -8.7498167,
+      name: "Camping Costa Nova",
+      address1:"Quinta dos Patos, n.º 2",
+      address2: "Praia da Costa Nova",
+      postalCode: "3830-453 Gafanha da Encarnação" // don't insert comma in the last item of each marker
+   },
+   {
+      lat: 40.6247167,
+      lng: -8.7129167,
+      name: "Camping Gafanha da Nazaré",
+      address1:"Rua dos Balneários do Complexo Desportivo",
+      address2: "Gafanha da Nazaré",
+      postalCode: "3830-225 Gafanha da Nazaré" // don't insert comma in the last item of each marker
+   } // don't insert comma in the last item
+];
+
+function initialize(setMap) {
+
+   var mapOptions;
+   
+   if(setMap == "mapLeft") {
+      mapOptions = {
+         center: new google.maps.LatLng(40.601203,-8.668173),
+         zoom: 11,
+          scrollwheel: false,
+
+         mapTypeId: 'roadmap',
+      };
+   
+      mapLeft = new google.maps.Map(document.getElementById('map-canvas-left'), mapOptions);
+      
+	   // a new Info Window is created
+	   infoWindowLeft = new google.maps.InfoWindow();
+	
+	   // Event that closes the Info Window with a click on the map
+	   google.maps.event.addListener(mapLeft, 'click', function() {
+	      infoWindowLeft.close();
+   	});
+      
+   } else {
+      
+      mapOptions = {
+         center: new google.maps.LatLng(40.601203,-8.668173),
+         zoom: 9,
+          scrollwheel: false,
+ 
+         mapTypeId: 'roadmap',
+      };
+      
+	   mapRight = new google.maps.Map(document.getElementById('map-canvas-right'), mapOptions);
+      
+	   // a new Info Window is created
+	   infoWindowRight = new google.maps.InfoWindow();
+	
+	   // Event that closes the Info Window with a click on the map
+	   google.maps.event.addListener(mapRight, 'click', function() {
+	      infoWindowRight.close();
+   	});
+   }
+
+   // Finally displayMarkers() function is called to begin the markers creation
+   displayMarkers(setMap);
+   
+   // Create second map only when initialize function is called for the first time.
+   // Second time setMap is equal to mapRight, so this condition returns false and it will not run  
+   if(setMap == "mapLeft"){
+      initialize("mapRight");   
+   }
+   
+}
+google.maps.event.addDomListener(window, 'load', function(){ initialize("mapLeft") });
+
+
+// This function will iterate over markersData array
+// creating markers with createMarker function
+function displayMarkers(setMap){
+   
+   var markersData;
+   var map;
+   
+   if(setMap == "mapLeft"){
+      markersData = markersDataLeft;
+      map = mapLeft;
+   } else {
+      markersData = markersDataRight;
+      map = mapRight;
+   }
+   
+   // this variable sets the map bounds according to markers position
+   var bounds = new google.maps.LatLngBounds();
+   
+   // for loop traverses markersData array calling createMarker function for each marker 
+   for (var i = 0; i < markersData.length; i++){
+
+      var latlng = new google.maps.LatLng(markersData[i].lat, markersData[i].lng);
+      var name = markersData[i].name;
+      var address1 = markersData[i].address1;
+      var address2 = markersData[i].address2;
+      var postalCode = markersData[i].postalCode;
+
+      createMarker(setMap, latlng, name, address1, address2, postalCode);
+
+      // marker position is added to bounds variable
+      bounds.extend(latlng);  
+   }
+
+   // Finally the bounds variable is used to set the map bounds
+   // with fitBounds() function
+   map.fitBounds(bounds);
+}
+
+// This function creates each marker and it sets their Info Window content
+function createMarker(setMap, latlng, name, address1, address2, postalCode){
+   
+   var map;
+   var infoWindow;
+   
+   if(setMap == "mapLeft"){
+      map = mapLeft;
+      infoWindow = infoWindowLeft;
+   } else {
+      map = mapRight;
+      infoWindow = infoWindowRight;
+   }
+   
+   var marker = new google.maps.Marker({
+      map: map,
+      position: latlng,
+      title: name
+   });
+
+   // This event expects a click on a marker
+   // When this event is fired the Info Window content is created
+   // and the Info Window is opened.
+   google.maps.event.addListener(marker, 'click', function() {
+      
+      // Creating the content to be inserted in the infowindow
+      var iwContent = '<div id="iw_container">' +
+            '<div class="iw_title">' + name + '</div>' +
+         '<div class="iw_content">' + address1 + '<br />' +
+         address2 + '<br />' +
+         postalCode + '</div></div>';
+      
+      // including content to the Info Window.
+      infoWindow.setContent(iwContent);
+
+      // opening the Info Window in the current map and at the current marker location.
+      infoWindow.open(map, marker);
+   });
+}
+</script>
+
+</body>
+</html>
