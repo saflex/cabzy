@@ -1,93 +1,60 @@
+$(".scroller-b").mCustomScrollbar({
+    axis: "y",
 
-     $(document).ready(function () {
+    autoDraggerLength: false,
 
-            //main nav
-            $(window).on('scroll load', function () {
-                updateMainNav();
-            });
-
-            function updateMainNav() {
-                if ($(window).scrollTop() >= 100) {
-                    $('body').addClass('minimize-menus');
-                } else {
-                    $('body').removeClass('minimize-menus');
-                }
-            }
-
-            $('.user-nav > a').on('click', function () {
-                $('body').toggleClass('show-user-nav');
-            });
-
-            $(document).on('click', function (event) {
-                $('body').removeClass('show-user-nav');
-            });
-
-            $('.collapse-main-nav').on('click', function () {
-                if ($('body').toggleClass('show-main-nav').hasClass('show-main-nav')) window.scrollTo(0, 0);
-                return false;
-            });
-
-        });
-        
-        
-        
-    	$(".scroller-b").mCustomScrollbar({
-					axis:"y",
-				
-					autoDraggerLength:false,
-				
-				});	
+});
 
 
 
 
 
-	if($(window).width() > 1199) {
+if ($(window).width() > 1199) {
 
-	$(".scroller-b2").mCustomScrollbar({
-					axis:"y",
-				
-					autoDraggerLength:false,
-				
-				});	
+    $(".scroller-b2").mCustomScrollbar({
+        axis: "y",
+
+        autoDraggerLength: false,
+
+    });
 
 
-} else { 
+} else {
     // change functionality for larger screens
 }
-	
-   
-    
 
 
- 
+
+
+
+
 // placeholder-focus
- $(document).ready(function () {
- $('input,textarea').focus(function(){
-   $(this).data('placeholder',$(this).attr('placeholder'))
-   $(this).attr('placeholder','');
- });
- $('input,textarea').blur(function(){
-   $(this).attr('placeholder',$(this).data('placeholder'));
- });
- });
- 
+$(document).ready(function() {
+    $('input,textarea').focus(function() {
+        $(this).data('placeholder', $(this).attr('placeholder'))
+        $(this).attr('placeholder', '');
+    });
+    $('input,textarea').blur(function() {
+        $(this).attr('placeholder', $(this).data('placeholder'));
+    });
+});
+
 
 
 // mobile-viewport
-if(screen.width<=400){
-            $('head').append('<meta name="viewport" content="width=400, user-scalable=0"/>');
-        } else {
-            $('head').append('<meta name="viewport" content="width=device-width">');
-        }
-        $(window).on("orientationchange",function(){
-          if(window.orientation == 0) // Portrait 
-          {
-            $('head').append('<meta name="viewport" content="width=device-width">');
-          } else // Landscape 
-          {
-            $('head').append('<meta name="viewport" content="width=640">');
-          }
+if (screen.width <= 400) {
+    $('head').append('<meta name="viewport" content="width=400, user-scalable=0"/>');
+} else {
+    $('head').append('<meta name="viewport" content="width=device-width">');
+}
+$(window).on("orientationchange", function() {
+    if (window.orientation == 0) // Portrait 
+    {
+        $('head').append('<meta name="viewport" content="width=device-width">');
+    } else // Landscape 
+    {
+        $('head').append('<meta name="viewport" content="width=640">');
+    }
 });
 
 
@@ -103,7 +70,7 @@ $(function() {
         var modal = $(this),
             dialog = modal.find('.modal-dialog');
         modal.css('display', 'block');
-        
+
         // Dividing by two centers the modal exactly, but dividing by three 
         // or four works better for larger screens.
         dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
@@ -120,73 +87,70 @@ $(function() {
 
 
 
-(function($){
-			$(window).load(function(){
-                
-				$("ul.dropdown-menu.inner").mCustomScrollbar({
-					setHeight:160,
-					theme:"dark",
-				});
-				
-			});
-		})(jQuery);
+(function($) {
+    $(window).load(function() {
 
+        $("ul.dropdown-menu.inner").mCustomScrollbar({
+            setHeight: 160,
+            theme: "dark",
+        });
 
-
-    
-             var swiper = new Swiper('.swiper-container2', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-         autoplay: 2500,
-                speed: 1200,
-            
-        direction: 'vertical'
     });
-    
-    
-    
-      $(document).ready(function() {
+})(jQuery);
+
+
+
+
+var swiper = new Swiper('.swiper-container2', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    autoplay: 2500,
+    speed: 1200,
+
+    direction: 'vertical'
+});
+
+
+
+$(document).ready(function() {
     $("#datepicker").datepicker({
-           showOn: "button",
-      buttonImage: "img/cal.png",
-      buttonImageOnly: true,
-        }).click(function() { $(this).datepicker('show'); });
- });
- 
+        showOn: "button",
+        buttonImage: "img/cal.png",
+        buttonImageOnly: true,
+    }).click(function() { $(this).datepicker('show'); });
+});
 
-    
-      $(document).ready(function() {
+
+
+$(document).ready(function() {
     $("#datepicker2").datepicker({
-           showOn: "button",
-      buttonImage: "img/cal.png",
-      buttonImageOnly: true,
-        }).click(function() { $(this).datepicker('show'); });
- });
- 
+        showOn: "button",
+        buttonImage: "img/cal.png",
+        buttonImageOnly: true,
+    }).click(function() { $(this).datepicker('show'); });
+});
 
 
-  jQuery(function($){
-	$.datepicker.regional['ru'] = {
-		closeText: 'Закрыть',
-		prevText: 'Назад',
-		nextText: 'Далее',
 
-		monthNames: ['Январь', 'Февраль', 'Март', 'Апрель',
-'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь',
-'Октябрь', 'Ноябрь', 'Декабрь'],
+jQuery(function($) {
+    $.datepicker.regional['ru'] = {
+        closeText: 'Закрыть',
+        prevText: 'Назад',
+        nextText: 'Далее',
 
-	  monthNamesShort: [ "Январь", "Феваль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
-		dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+        monthNames: ['Январь', 'Февраль', 'Март', 'Апрель',
+            'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь',
+            'Октябрь', 'Ноябрь', 'Декабрь'
+        ],
 
-		dateFormat: 'dd.mm.yy',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''};
-	$.datepicker.setDefaults($.datepicker.regional['ru']);
-});			
-	
-	
+        monthNamesShort: ["Январь", "Феваль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+        dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
 
-	
-
+        dateFormat: 'dd.mm.yy',
+        firstDay: 1,
+        isRTL: false,
+        showMonthAfterYear: false,
+        yearSuffix: ''
+    };
+    $.datepicker.setDefaults($.datepicker.regional['ru']);
+});

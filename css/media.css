@@ -20,12 +20,12 @@ ul.left-menu-cab {
 
 
 .second-block-4{
-	height: 300px !important;
-	background-size: cover !important;
+    height: 300px !important;
+    background-size: cover !important;
 }
 
 .ttls-area {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .scroller-b2.table-scroll {
     clear: both;
@@ -143,7 +143,7 @@ section.main-block6 {
 }
 
 @media (max-width: 992px) {
-	.preim-area li {
+    .preim-area li {
     padding: 10px;
     margin: 0 -10px;
     font-size: 16px;
@@ -182,11 +182,11 @@ section.main-block6 {
     padding-left: 14px;
 }
 .phone-sticker{
-	display: none;
+    display: none;
 }
 
 section.main-block .w40.flr{
-	height: 642px;
+    height: 642px;
 }
 
 .image-block {
@@ -200,7 +200,7 @@ footer.page-footer {
 }
 
 @media (max-width: 767px) {
-	.tarifs li {
+    .tarifs li {
     padding: 0px;
     margin: 0 0px;
     font-size: 16px;
@@ -261,10 +261,10 @@ span.hlps-areas a{
 
 
 .no-nn{
-	margin-top: -70px !important;
+    margin-top: -70px !important;
 }
 .no-mm-bottom{
-margin-bottom: 0 !important;	
+margin-bottom: 0 !important;    
 }
 
 
@@ -275,7 +275,7 @@ margin-bottom: 0 !important;
 }
 
 .left-news, .right-news{
-	width: 100%;
+    width: 100%;
 }
 
 .more-news-block {
@@ -324,7 +324,7 @@ div#exTab1 {
 }
 
 .no-margin{
-	margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .cabinet-forms .col-md-2 label {
@@ -344,7 +344,7 @@ div#exTab1 {
 }
 
 .cabinet-forms{
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .col-sm-9 .cabinet-forms {
@@ -358,6 +358,7 @@ div#exTab1 {
     border: 0;
     padding-right: 0;
     clear: both;
+    display: none;
 }
 
 .cab-panel {
@@ -371,7 +372,7 @@ div#exTab1 {
     width: 100%;
 }
 
-.bg-area-nb-сabinet {
+.bg-area-nb-Ã‘Âabinet {
     position: relative;
 }
 
@@ -415,7 +416,7 @@ ul.left-menu-cab li a {
 }
 
 .scr-pz{
-	position: relative;
+    position: relative;
 }
 
 .scr-pz .button {
@@ -459,12 +460,12 @@ ul.left-menu-cab li a {
 }
 
 .max-wtl.aftr-area:after{
-	border: 0 !important;
-	width: 0 !important;
+    border: 0 !important;
+    width: 0 !important;
 }
 
 .fll.cps2{
-	border: 0;
+    border: 0;
 }
 
 .scr-pz .flr {
@@ -500,8 +501,8 @@ ul.left-menu-cab li a {
     border: 0px solid black;
 }
 .map-ws {
-	height: 220px !important;
-	background: #0162BB;
+    height: 220px !important;
+    background: #0162BB;
 }
 section.main-block.pages {
     height: 139px;
@@ -509,7 +510,7 @@ section.main-block.pages {
 }
 
 section.main-block.pages .w60{
-	height: 0;
+    height: 0;
 }
 
 section.max-column {
@@ -536,8 +537,8 @@ section.block-txt-scroll.block-txt-sc {
     font-family: 'Montserrat-Bold';
     font-weight: 300;
 }
-	
-	.buttons-areas {
+    
+    .buttons-areas {
     margin-left: 15px;
 }
 
@@ -547,8 +548,8 @@ section.block-txt-scroll.block-txt-sc {
     margin-left: 0 !important;
     left: 0;
 }
-	
-	.buttons-areas button.button {
+    
+    .buttons-areas button.button {
     background: #1064B9;
     color: #fff;
     border: 0;
@@ -560,19 +561,20 @@ section.block-txt-scroll.block-txt-sc {
     right: 15px;
     float: left;
 }
-	
-	.btn-group.bootstrap-select.line-sel {
+    
+    .btn-group.bootstrap-select.line-sel {
     margin-bottom: 24px;
 }
 
 section.block-txt-scroll {
     padding-top: 29px;
 }
-	
+    
 .w40.flr {
     width: 100%;
     height: auto !important;
     padding-bottom: 25px;
+    margin-top: 50px;
 }
 
 .title-area-n h1 {
@@ -598,26 +600,26 @@ section.block-txt-scroll {
 }
 
 .app-area{
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	float: none;
-	text-align: center;
-	display: block;
-	font-size: 0; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: none;
+    text-align: center;
+    display: block;
+    font-size: 0; 
 }
 
 .app-area div{
-	float: none !important;
-	padding: 10px;
-	margin: 0 0px;
-	font-size: 16px; /* возвращаем размер шрифта */
-	display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
-	vertical-align: middle; /* и выравниваем */
+    float: none !important;
+    padding: 10px;
+    margin: 0 0px;
+    font-size: 16px; /* ÃÂ²ÃÂ¾ÃÂ·ÃÂ²Ã‘â‚¬ÃÂ°Ã‘â€°ÃÂ°ÃÂµÃÂ¼ Ã‘â‚¬ÃÂ°ÃÂ·ÃÂ¼ÃÂµÃ‘â‚¬ Ã‘Ë†Ã‘â‚¬ÃÂ¸Ã‘â€žÃ‘â€šÃÂ° */
+    display: inline-block; /* ÃÂ¿ÃÂ¾ÃÂ·ÃÂ²ÃÂ¾ÃÂ»Ã‘ÂÃÂµÃÂ¼ vertical-align ÃÂ²Ã‘â€¹Ã‘â‚¬ÃÂ°ÃÂ²ÃÂ½ÃÂ¸ÃÂ²ÃÂ°Ã‘â€šÃ‘Å’ Ã‘ÂÃÂµÃÂ±Ã‘Â ÃÂ¿ÃÂ¾ ÃÂ²ÃÂµÃ‘â‚¬Ã‘â€šÃÂ¸ÃÂºÃÂ°ÃÂ»ÃÂ¸ */
+    vertical-align: middle; /* ÃÂ¸ ÃÂ²Ã‘â€¹Ã‘â‚¬ÃÂ°ÃÂ²ÃÂ½ÃÂ¸ÃÂ²ÃÂ°ÃÂµÃÂ¼ */
 }
 
 .in-w40 button.button.border-color.fll{
-	display: block;
+    display: block;
 }
 
 .w60 {
@@ -633,7 +635,7 @@ section.block-txt-scroll {
     display: none;
 }
 .w60.fll .w50{
-	width: 100%;
+    width: 100%;
 }
 
 .w60.fll .w50 {
@@ -681,7 +683,7 @@ section.main-block4 .w50 {
 }
 
 .w50.fll.blue-color p{
-	text-align: center;
+    text-align: center;
 }
 
 .nfo-slide-block h3 {
@@ -693,7 +695,7 @@ section.main-block4 .w50 {
 }
 
 .sliders-sl img{
-	display: none;
+    display: none;
 }
 
 .nfo-slide-block {
@@ -738,7 +740,7 @@ input[type="text"] {
 }
 
 .swiper-container.swiper-container2.swiper-container-vertical {
-	height: auto;
+    height: auto;
     max-height: 440px;
     overflow: hidden;
 }
@@ -748,7 +750,7 @@ input[type="text"] {
 }
 
 .main-block .top-menu{
-	display: none !important;
+    display: none !important;
 }
 
 .image-block {
@@ -778,11 +780,11 @@ section.main-block {
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-	background: #0158AA !important;
+    background: #0158AA !important;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-	 border-color: #fff;
+     border-color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -790,7 +792,7 @@ section.main-block {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	color: #0158AA;
+    color: #0158AA;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -821,10 +823,10 @@ section.main-block {
 }
 
 .more-news-block .buttons-areas.no-mg-s{
-	margin-top: 0;
+    margin-top: 0;
 }
 .select-area input, .select-area textarea{
-	box-shadow: none !important;
-	border: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
 }
 
